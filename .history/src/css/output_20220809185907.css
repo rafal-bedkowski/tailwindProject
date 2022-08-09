@@ -65,20 +65,6 @@ body {
   background-position: 90% -25%;
 }
 
-
-#cta{
-  background-image: url(../assets/img/bg-simplify-section-desktop.svg);
-  background-repeat: no-repeat;
-}
-@media(max-width: 575px){
-  body{
-    background-position: 50px -50px;
-    background-size: 500px;
-  }
-  #cta{
-    background-image: url(../assets/img/bg-simplify-section-mobile.svg) ;
-  }
-}
 /*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
