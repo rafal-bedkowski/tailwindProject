@@ -23,3 +23,25 @@ body{
     background-image: url(../assets/img/bg-simplify-section-mobile.svg) ;
   }
 }
+
+
+/*Hamburger menu*/
+
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #000;
+}
