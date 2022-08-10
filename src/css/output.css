@@ -921,26 +921,26 @@ video {
           filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-body{
+body {
   background-image: url(../assets/img/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
   background-size: 800px;
   background-position: 90% -25%;
 }
 
-#cta{
+#cta {
   background-image: url(../assets/img/bg-simplify-section-desktop.svg);
   background-repeat: no-repeat;
 }
 
-@media(max-width: 575px){
-  body{
+@media (max-width: 575px) {
+  body {
     background-position: 50px -50px;
     background-size: 500px;
   }
 
-  #cta{
-    background-image: url(../assets/img/bg-simplify-section-mobile.svg) ;
+  #cta {
+    background-image: url(../assets/img/bg-simplify-section-mobile.svg);
   }
 }
 
@@ -956,13 +956,40 @@ body{
 
 .hamburger-top,
 .hamburger-middle,
-.hamburger-bottom{
+.hamburger-bottom {
   position: absolute;
   top: 0;
   left: 0;
   width: 24px;
   height: 2px;
   background: #000;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open{
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.open .hamburger-top{
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle{
+  display: none;
+}
+
+.open .hamburger-bottom{
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
 .hover\:bg-brightRedLight:hover {
