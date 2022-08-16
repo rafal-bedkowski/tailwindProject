@@ -1,5 +1,3 @@
-![cover]
-
 # WTF Webpack Starter Kit 
 
 Simple toolkit for your static websites development.
