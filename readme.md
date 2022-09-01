@@ -1,4 +1,4 @@
-![cover](src/assets/img/stronaProjektowaHuddleLanding.png)
+![cover](src/assets/img/tailwindTitlePage.png)
 
 # Tailwind Landing page
 > Live demo [_here_](https://rafal-bedkowski.github.io/huddleLandingPage/).
@@ -11,21 +11,19 @@
 * [Project Status](#project-status)
 
 ## General Information
-- Frontend mentor challenge, simple QR component for resolution 375px and 1440px(this resolution are given by the challenge brief)
-- Purpose of the project is to improve the html css/scss skills
+- Simple landing page mostly build with the Tailwind CSS framework
 
 ## Technologies Used
 - HTML 5 (with semantic tags)
-- SCSS/CSS
-- BEM naming convention
+- Tailwind CSS
 - NPM Webpack starter kit from Frontend Training course - providing couple of packages like webpack dev-server, babel etc.  
 
 
 ## Screenshots
-![Example screenshot](src/assets/img/1440resolution.png)
-![Example screenshot](src/assets/img/375res.png)
-![Example screenshot](src/assets/img/activeButton.png)
-![Example screenshot](src/assets/img/activeLinks.png)
+![Example screenshot](src/assets/img/1440_1.png)
+![Example screenshot](src/assets/img/1440_2.png)
+![Example screenshot](src/assets/img/768_1.png)
+![Example screenshot](src/assets/img/768_2.png)
 
 
 
