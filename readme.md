@@ -1,7 +1,7 @@
 ![cover](src/assets/img/tailwindTitlePage.png)
 
 # Tailwind Landing page
-> Live demo [_here_](https://rafal-bedkowski.github.io/huddleLandingPage/).
+> Live demo [_here_](https://rafal-bedkowski.github.io/tailwindProject/).
 
 ## Table of Contents
 * [General Info](#general-information)
